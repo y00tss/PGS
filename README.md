@@ -32,14 +32,14 @@ This is a DRF project of Task ToDo based on Django and Django Rest Framework.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/y00tss/
+git clone https://github.com/y00tss/PGS
 ```
 ### 2. Open Docker Desktop version
 
 ### 3. Open Project folder
 
 ```bash
-cd
+cd PGS
 ```
 ### 4. Start docker-compose
 

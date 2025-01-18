@@ -21,4 +21,5 @@ def notify_task_status(instance):  # pragma: no cover
 
 @receiver(post_save, sender=Task)
 def task_status_update(sender, instance, **kwargs):  # pragma: no cover
+    """Getting notification when task is updated via signals and WebSockets"""
     notify_task_status(instance)
